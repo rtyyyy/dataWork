@@ -1,5 +1,4 @@
-const Paginator = ({totalElements,limitElements,paginate,setCurrentPage,currentPage,filteredData}) =>{
-  // let totalPages = []   
+const Paginator = ({totalElements,limitElements,paginate,setCurrentPage,currentPage}) =>{
   let totalPages: number[] = []
 for (let i=1; i<= Math.ceil(totalElements/limitElements); i++){
   totalPages.push(i)

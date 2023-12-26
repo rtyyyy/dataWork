@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import {  useState } from "react";
 import useValidation from "../hooks/useValidation";
 
 const Form = ({ getInputData }) => {
